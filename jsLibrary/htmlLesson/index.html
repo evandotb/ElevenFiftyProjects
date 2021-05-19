@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Blog</title>
+    <!--
+        holds metadata/information we dont use
+    -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- <style>
+        body {
+            background-color: black;
+        }
+    </style> -->
+  </head>
+  <body>
+    <header>
+      <!-- the header element represents a container for introductory content or a set of navigational links. -->
+
+      <h1>Music Blog</h1>
+      <nav>
+        <ul>
+          <li><span>Home</span></li>
+          <li><a href="#">Get started</a></li>
+          <li><a href="#">Photos</a></li>
+          <li><a href="#">Forum</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <h2>Welcome!</h2>
+      <main>
+        <!-- 
+                specifies the main content.
+                can only be one.
+                cannot be a descendant (child) of:
+                header
+                nav
+                article
+                aside
+                footer
+             -->
+        <article>
+          <!-- the article tag specifies independant, self-contained content -->
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati
+            suscipit tempora nesciunt sed odio ipsa, necessitatibus nihil
+            molestias, optio cum unde at a mollitia commodi enim quis,
+            distinctio corporis sint.
+          </p>
+        </article>
+        <aside>
+          <h2>Favorite Albums</h2>
+          <a href="./assets/BrokenBells_Amoeba.jpg" target="_blank"
+            ><img src="./assets/BrokenBells_Amoeba.jpg" alt=""
+          /></a>
+          <a href="./assets/inYourHonor.jpg" target="_blank"
+            ><img src="./assets/inYourHonor.jpg" alt=""
+          /></a>
+          <a href="./assets/PinkFloyd.jpg" target="_blank"
+            ><img src="./assets/PinkFloyd.jpg" alt=""
+          /></a>
+          <a href="./assets/TVotR_seeds.jpg" target="_blank"
+            ><img src="./assets/TVotR_seeds.jpg" alt=""
+          /></a>
+        </aside>
+      </main>
+    </section>
+  </body>
+</html>

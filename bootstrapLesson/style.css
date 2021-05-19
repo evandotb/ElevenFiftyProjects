@@ -1,0 +1,33 @@
+/* MAIN */
+body {
+    overflow-x: hidden;
+}
+
+/* PROJECT */
+.myProj {
+    width: cover;
+}
+
+.carousel-item img {
+    height: 100vh;
+}
+
+/* CONTACT */
+.contactMe {
+    display: flex;
+    height: 100vh;
+    border-radius: 10px;
+    padding: 2em;
+    background-color: white;
+    align-items: center;
+}
+
+button {
+    margin: 1em 0;
+}
+
+/* Footer */
+footer {
+    margin-top: 1em;
+    bottom: 0;
+}

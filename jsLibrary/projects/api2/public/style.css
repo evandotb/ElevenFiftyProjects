@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    background-image: url("https://i.ytimg.com/vi/UNOmaFs6KaY/maxresdefault.jpg");
+}
+
+.search {
+    margin-top: 1%;
+}
+
+h1 {
+color: white;
+}
+
+label {
+    color: white;
+}
+
+.div {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+
+p {
+color: white;
+}
+
+
+
+h2 {
+margin-top: 5%;
+color: white;
+}
+
+p2 {
+margin-top: 10%;
+margin-bottom: 30%;
+}
+
+img {
+ width: 50%;
+ height: 50%;
+ object-fit: contain;
+ margin-top: 2%;
+ margin-bottom: 5%;
+}
